@@ -1,7 +1,7 @@
-body {
+body {}
 
-    background-color: grey;
-
+h5 {
+    margin: 0;
 }
 
 ul,
@@ -44,8 +44,6 @@ li {
     margin-left: 8px;
 }
 
-
-
 .header__intro {
     background-size: cover;
     background-position: 0 100%;
@@ -69,7 +67,6 @@ li {
     margin-bottom: 46px;
 }
 
-
 .intro__btn {
     border: 0;
     text-transform: uppercase;
@@ -80,6 +77,82 @@ li {
     padding: 15px 60px;
     background-color: #f98561;
 }
+
+.services {
+    background-color: #f4f4f4;
+    position: relative;
+    padding-top: 50px;
+    padding-bottom: 36px;
+}
+
+.services__header {
+    position: absolute;
+    top: -20px;
+    font-weight: 500;
+    font-size: 22px;
+    color: #fff;
+    text-transform: uppercase;
+    text-align: center;
+    border-radius: 5px;
+    background-color: #2190c1;
+    padding: 5px 0;
+}
+
+.services__item {
+    text-align: center;
+    font-size: 11px;
+    color: #515862;
+}
+
+.services__img {
+    margin-bottom: 28px;
+}
+
+.services__title {
+    font-size: 17px;
+    margin-bottom: 13px;
+}
+
+.portfolio {
+    padding-top: 56px;
+    padding-bottom: 82px;
+    background-color: #2e3e4f;
+}
+
+.portfolio__title {
+    font-size: 30px;
+    color: #f98561;
+}
+
+.portfolio__btn {
+    background-color: #2190c1;
+    border-radius: 7px;
+    border: none;
+    color: #fff;
+    padding: 8px 11px;
+}
+
+.portfolio__img {
+    margin-bottom: 22px;
+    margin-top: 70px;
+}
+
+
+.portfolio__sup{
+    font-size: 17px;
+    color: #f98561;
+}
+
+
+.portfolio__sub {
+    font-size: 11px;
+    color: #bcbcbc;
+}
+
+
+
+
+
 
 
 

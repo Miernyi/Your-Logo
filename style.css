@@ -137,16 +137,89 @@ li {
     margin-top: 70px;
 }
 
-
-.portfolio__sup{
+.portfolio__sup {
     font-size: 17px;
     color: #f98561;
 }
 
-
 .portfolio__sub {
     font-size: 11px;
     color: #bcbcbc;
+}
+
+.offer {
+    padding-top: 38px;
+    padding-bottom: 30px;
+}
+
+.offer__title {
+    text-align: center;
+}
+
+.offer__suptitle {
+    font-size: 40px;
+    color: #2190c1;
+    font-weight: 700;
+    margin-bottom: 28px;
+}
+
+.offer__subtitle {
+    font-size: 14px;
+    color: #515862;
+    font-weight: 500;
+    margin: 0 auto;
+    margin-bottom: 40px;
+    width: 720px;
+}
+
+.offer__sup {
+    font-size: 18px;
+    color: #2190c1;
+    font-weight: 500;
+    margin-bottom: 15px;
+}
+
+.offer__sub {
+    font-size: 14px;
+    color: #515862;
+    font-weight: 500;
+    margin-bottom: 18px;
+}
+
+.offer__btn {
+    margin-left: 175px;
+    border: none;
+    border-radius: 4px;
+    background-color: #2190c1;
+    color: #fff;
+    font-size: 15x;
+}
+
+.details {
+    font-size: 15px;
+    margin-left: 5px;
+}
+
+.testimonials {
+    padding-top: 32px;
+}
+
+
+.testimonials__suptitle{
+    text-transform: uppercase;
+    font-size: 27px;
+    color: #2190c1;
+    font-weight: 600;
+}
+
+.testimonials__subtitle {
+    font-size: 25px;
+    color: #515862;
+    font-weight: 5
+        
+        
+        00;
+    
 }
 
 
